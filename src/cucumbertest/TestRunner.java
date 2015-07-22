@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "Feature"
 		,glue={"stepDefinition"}
-		,monochrome = true
+		,monochrome = false
 		
 		)
 
